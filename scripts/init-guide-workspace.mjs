@@ -56,4 +56,3 @@ if (!existsSync(configPath)) {
 }
 
 console.log(JSON.stringify({ status: 'ok', workspace: out, projectName, directories: dirs }, null, 2));
-

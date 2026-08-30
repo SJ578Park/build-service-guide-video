@@ -52,4 +52,3 @@ for (const time of times) {
 }
 
 console.log(JSON.stringify({ status: 'ok', input, times, outputs }, null, 2));
-

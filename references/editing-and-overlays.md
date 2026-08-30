@@ -94,4 +94,3 @@ Render and inspect the first frame of every chapter. Confirm card number, title,
 Normalize narration consistently. Generate captions from narration text and audio duration.
 
 Keep captions visible long enough for the audience and avoid rapid one-line changes during form entry. Let narration finish on a stable UI frame.
-

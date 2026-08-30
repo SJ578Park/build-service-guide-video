@@ -134,4 +134,3 @@ On a critical assertion failure, stop recording and save:
 - test data run id.
 
 Do not continue into Remotion or ChatCut with a failed critical chapter.
-

@@ -82,4 +82,3 @@ Prevention: verify deployment-sensitive flows on the deployed environment and pa
 Symptom: the local master was rerendered but ChatCut still references the previous chapter asset.
 
 Prevention: after every final rerender, replace only affected assets, preserve exact frame placement, read the current timeline again, and render proof frames around the changed moment.
-

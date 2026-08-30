@@ -89,4 +89,3 @@ Check:
 - deployed URL is verified;
 - review editor points to the current assets;
 - delivered source can reproduce the render.
-

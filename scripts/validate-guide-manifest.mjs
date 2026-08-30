@@ -108,4 +108,3 @@ const report = {
 
 console.log(JSON.stringify(report, null, 2));
 process.exit(failures.length === 0 ? 0 : 1);
-
