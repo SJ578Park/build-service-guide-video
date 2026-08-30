@@ -1,0 +1,37 @@
+{
+  "chapterId": "01-setup",
+  "viewport": {
+    "width": 1920,
+    "height": 1080
+  },
+  "capture": {
+    "surface": "browser-automation",
+    "appOrBrowser": "chromium",
+    "chapterVideo": "recordings/01-setup.webm",
+    "publishSafe": false
+  },
+  "steps": [
+    {
+      "id": "01-setup-001",
+      "kind": "action",
+      "title": "Open menu",
+      "description": "Open the role menu before navigating.",
+      "route": "https://service.example/admin",
+      "menuPath": "Admin Mode → Management",
+      "sourceStartMs": 1000,
+      "directionStartMs": 1400,
+      "actionAtMs": 2500,
+      "sourceEndMs": 3600,
+      "targetRect": {
+        "x": 0.78,
+        "y": 0.04,
+        "width": 0.12,
+        "height": 0.05
+      },
+      "uiReady": true,
+      "privacy": false,
+      "beforeStill": "stills/01-setup-001-before.png",
+      "afterStill": "stills/01-setup-001-after.png"
+    }
+  ]
+}

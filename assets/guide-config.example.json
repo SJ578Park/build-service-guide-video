@@ -1,0 +1,35 @@
+{
+  "projectName": "Service Operator Guide",
+  "deployedUrl": "https://service.example",
+  "language": "ko",
+  "width": 1920,
+  "height": 1080,
+  "fps": 30,
+  "capture": {
+    "surface": "browser-automation",
+    "chapterVideo": true,
+    "beforeAfterStills": true,
+    "fixedWindowGeometry": true
+  },
+  "overviewHoldMs": 5000,
+  "directionHoldMs": 1000,
+  "postActionHoldMs": 1000,
+  "idleCapMs": 2000,
+  "roles": [
+    "public-user",
+    "instructor",
+    "admin"
+  ],
+  "privacy": {
+    "syntheticDataOnly": true,
+    "scanRawCapture": true,
+    "publishRawCapture": false
+  },
+  "outputs": {
+    "master": true,
+    "chapters": true,
+    "captions": true,
+    "validationReport": true,
+    "reviewProject": true
+  }
+}
