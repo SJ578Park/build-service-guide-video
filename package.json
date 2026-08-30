@@ -1,0 +1,16 @@
+{
+  "name": "build-service-guide-video-skill",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Validation helpers for the Build Service Guide Video Codex skill",
+  "type": "module",
+  "scripts": {
+    "validate:skill": "node scripts/validate-skill.mjs",
+    "validate:manifest": "node scripts/validate-guide-manifest.mjs --manifest assets/guide-manifest.example.json",
+    "smoke": "node scripts/smoke-test.mjs",
+    "test": "npm run validate:skill && npm run validate:manifest && npm run smoke"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

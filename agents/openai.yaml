@@ -1,0 +1,4 @@
+interface:
+  display_name: "Build Service Guide Video"
+  short_description: "Create reliable product walkthrough and operator-guide videos"
+  default_prompt: "Use $build-service-guide-video to create and validate a deployment-based guide video for this service."
